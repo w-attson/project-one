@@ -1,6 +1,6 @@
 # Location Analysis
 
-An Interactive Map was created to enable anyone to investigate the historical data of all crashes in Victoria from 2006 to 2020.\
+An Interactive Map was created to enable anyone to investigate the historical data of all crashes in Victoria from 2006 to 2020.
 
 ![Interactive Map](Images/interactive-map-victoria.png)
 
