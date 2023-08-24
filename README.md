@@ -61,6 +61,7 @@ Pandas
 Numpy
 Pathlib
 Matplotlib (for visualizations)
+Sk Learn (For linear regression model)
 
 ### Usage
 
