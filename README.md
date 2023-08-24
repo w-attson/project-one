@@ -1,4 +1,4 @@
-# Project Title: Crash Incidence Analysis for The State of Victoria - [FINTECH USE CASE]
+# Project Title: Crash Incidence Analysis for The State of Victoria - An Investigation for Safety Ratings.
 
 ## Overview
 
@@ -50,18 +50,26 @@ An Interactive Map was created to enable anyone to investigate the data.
 
 The map displays accidents with the specific details of the accident being displayed with a popup feature once hovered over with the mouse. The colouring of the locations change with the density of accidents recorded in the specific area. Higher density areas appear as orange, whereas lower density areas appear as green until the specific geographical location of the accident is observed. For further analysis, each specific year can be toggled on and off to determine trends quickly.
 
+![Location Analysis](https://github.com/w-attson/project-one/blob/3b9ae90676c07cdab1b2760f68b786b6b36e5b01/Images/interactive-map-victoria.png)
+
 ### Conclusion
 
 Through this project, we've demonstrated how to use Pandas and other libraries for analyzing raw datasets and turn it around into a very informative one. The intuitive syntax and powerful functionalities make it an essential tool for data manipulation and analysis tasks.
 
 ### Dependencies/Libraries
 
-Python 3.10
-Pandas
-Numpy
-Pathlib
-Matplotlib (for visualizations)
+Python 3.10 \
+Pandas \
+Numpy \
+Pathlib \
+Matplotlib (for visualizations) \
+Folium (Location Analysis) \
+Geopandas (Location Analysis) \
 Sk Learn (For linear regression model)
+
+### Data Sources
+Victorian Government Crash Statistics - 490949 Crash Incidences from 2006 to 2020 \
+[Crash Statistics](https://discover.data.vic.gov.au/dataset/crash-stats-data-extract)
 
 ### Usage
 
