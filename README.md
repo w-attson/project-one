@@ -12,6 +12,7 @@ Project Steps
  - Data loading
  - Data Cleaning and Wrangling
  - Data Analysis
+ - Location Analysis
 Conclusion
 Dependencies/Libraries
 Usage
@@ -42,6 +43,13 @@ Segmentation (age, gender, etc. of the victims)
 Visualisations (line plots, bar charts) using libraries like hvplot, GeoViews, Matplotlib together with Pandas.
 
 Based on the data Analysis, we derived insights such as identifying the likelihood of a vehicle accident in an area, death occuring from the accident, relationship between persons killed in an accident and light condition, and the likes.   
+
+### Location Analysis
+
+An Interactive Map was created to enable anyone to investigate the data.
+
+The map displays accidents with the specific details of the accident being displayed with a popup feature once hovered over with the mouse. The colouring of the locations change with the density of accidents recorded in the specific area. Higher density areas appear as orange, whereas lower density areas appear as green until the specific geographical location of the accident is observed. For further analysis, each specific year can be toggled on and off to determine trends quickly.
+
 ### Conclusion
 
 Through this project, we've demonstrated how to use Pandas and other libraries for analyzing raw datasets and turn it around into a very informative one. The intuitive syntax and powerful functionalities make it an essential tool for data manipulation and analysis tasks.
