@@ -1,27 +1,17 @@
-# project-one-setup
-project-one-setup
-Scope and Purpose 
+# Location Analysis
 
-This project aims to analyse the risk of deaths and hospitalisation arising from motor vehicle accidents and see how their costs to society are distributed by several factors:
+An Interactive Map was created to enable anyone to investigate the historical data of all crashes in Victoria from 2006 to 2020.
 
-Area - regions, highways, locations
-Speed
-Weather
-Whether the dead is the driver or the passenger or pedestrian
-Demographics - sex, age, 
-kinds/types of vehicle
+The map displays accidents with the specific details of the accident being displayed with a popup feature once hovered over with the mouse. The colouring of the locations change with the density of accidents recorded in the specific area. Higher density areas appear as orange, whereas lower density areas appear as green until the specific geographical location of the accident is observed.
 
+For further analysis, each specific year can be toggled on and off to determine trends quickly. 
 
-Sources of Data:
+## Dependancies
+pandas \
+geopandas \
+folium
 
-https://dtp.vic.gov.au/about/data-and-research/vista/vista-data-and-publications
-https://www.bitre.gov.au/statistics/safety/fatal_road_crash_database
+## Data
 
-The kinds of questions you'll be asking of that data
-
-
-
-Fintech Product Ideas
-
-Creating a bond which has a coupon which falls as the number of incidents in a local area fall
-Creating a weighted number which indicates the likelihood of an individual being a victim of a fatal car crash, and using this number to help insurance companies determine premiums. 
+Victorian Government Crash Statistics - 490949 Crash Incidences from 2006 to 2020 \
+[Crash Statistics](https://discover.data.vic.gov.au/dataset/crash-stats-data-extract)
